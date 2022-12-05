@@ -63,12 +63,15 @@ function App() {
 
   return (
     <div className="App">
-      <input onChange={(e) => changeInputHandler(e, 0)} value={inputs[0]} id="input-0" onKeyUp={(e) => keyUpInputHandler(e, 0)} placeholder='0' type="text" />
-      <input onChange={(e) => changeInputHandler(e, 1)} value={inputs[1]} id="input-1" onKeyUp={(e) => keyUpInputHandler(e, 1)} placeholder='0' type="text" />
-      <input onChange={(e) => changeInputHandler(e, 2)} value={inputs[2]} id="input-2" onKeyUp={(e) => keyUpInputHandler(e, 2)} placeholder='0' type="text" />
-      <input onChange={(e) => changeInputHandler(e, 3)} value={inputs[3]} id="input-3" onKeyUp={(e) => keyUpInputHandler(e, 3)} placeholder='0' type="text" />
-      <input onChange={(e) => changeInputHandler(e, 4)} value={inputs[4]} id="input-4" onKeyUp={(e) => keyUpInputHandler(e, 4)} placeholder='0' type="text" />
-      <input onChange={(e) => changeInputHandler(e, 5)} value={inputs[5]} id="input-5" onKeyUp={(e) => keyUpInputHandler(e, 5)} placeholder='0' type="text" />
+      <div className="inputs">
+        <input onChange={(e) => changeInputHandler(e, 0)} value={inputs[0]} id="input-0" onKeyUp={(e) => keyUpInputHandler(e, 0)} placeholder='0' type="text" />
+        <input onChange={(e) => changeInputHandler(e, 1)} value={inputs[1]} id="input-1" onKeyUp={(e) => keyUpInputHandler(e, 1)} placeholder='0' type="text" />
+        <input onChange={(e) => changeInputHandler(e, 2)} value={inputs[2]} id="input-2" onKeyUp={(e) => keyUpInputHandler(e, 2)} placeholder='0' type="text" />
+        <input onChange={(e) => changeInputHandler(e, 3)} value={inputs[3]} id="input-3" onKeyUp={(e) => keyUpInputHandler(e, 3)} placeholder='0' type="text" />
+        <input onChange={(e) => changeInputHandler(e, 4)} value={inputs[4]} id="input-4" onKeyUp={(e) => keyUpInputHandler(e, 4)} placeholder='0' type="text" />
+        <input onChange={(e) => changeInputHandler(e, 5)} value={inputs[5]} id="input-5" onKeyUp={(e) => keyUpInputHandler(e, 5)} placeholder='0' type="text" />
+      </div>
+      <p>&copy; <a href="https://kaualf.com/" target='_blank'>kaualf.com</a> | <a href="https://github.com/kaualandi/otp-input" target='_blank'>repositório</a></p>
     </div>
   )
 }
