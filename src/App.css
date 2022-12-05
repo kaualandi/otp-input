@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  gap: 10px;
+}
